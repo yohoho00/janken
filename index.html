@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>じゃんけんスクリプト</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header_wrapper">
+		<header class="header">
+			<div class="inner">
+				<h1 class="hd01"><a href="index.html">じゃんけんスクリプト</a></h1>
+				<p class="description">じゃんけんをするスクリプト</p>
+			</div>
+		</header>
+	</div>
+	<div class="main-wrapper">
+		<div class="sct" id="sct1">
+			<div class="inner">
+				<div class="contents_wrapper">
+					<button id="btn" class="button">最初はグー、じゃんけん・・・</button>
+					<div class="enemy">
+						<img src="img/goo.png" alt="じゃんけん" data-img="img/goo.png" id="output">
+					</div>
+					<div class="myhand mordal">
+						<div class="img_box">
+							<img src="img/goo.png" alt="じゃんけん" data-img="img/goo.png">
+							<img src="img/per.png" alt="じゃんけん" data-img="img/per.png">
+							<img src="img/tyoki.png" alt="じゃんけん" data-img="img/tyoki.png">
+						</div>
+						<p class="strong">何を出しますか？</p>
+					</div>
+						<span class="hide bg3">モーダル用の箱</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<p class="copyright"><small>Copyright&copy;Janken Script</small></p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

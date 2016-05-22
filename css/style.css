@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/*reset*/
+
+html, body, div, h1, h2, h3, p, ul, ol, li {
+	margin: 0;
+	padding: 0;
+	line-height: 1.0;
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, Sans-serif;
+	}
+
+a {
+	text-decoration: none;
+	}
+
+ul {
+	list-style-type: none;
+	}
+
+img {
+	max-width: 100%;
+	border: 0;
+	vertical-align: middle;
+	}
+
+/*font*/
+
+body { font-size: 16px;}
+h1 { font-size: 30px;}
+h2 { font-size: 25px;}
+h3 { font-size: 20px;}
+p { font-size: 16px;}
+li { font-size: 16px;}
+a { font-size: 16px; color: #333;}
+
+/*パーツ部分*/
+
+.hide {
+	display: none;
+}
+
+.inner {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.mordal {
+	width: 0;
+	height: 0;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	z-index: 10;
+}
+
+.bg3 {
+	background-color: #333;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent: 100%;
+}
+/*レイアウト*/
+
+body {
+	text-align: center;
+	background-color: #eee;
+}
+
+.inner:first-child {
+	padding-top: 0px;
+}
+
+.hd01 a {
+	display: block;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+.hd02 {
+	font-weight: normal;
+}
+
+.contents_wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	min-height: 450px;
+}
+
+.enemy {
+	background-color: #333;
+	padding: 20px;
+	margin: 30px 0;
+}
+
+.enemy img {
+	max-height: 169px;
+}
+
+.img_box {
+	padding: 30px 0;
+}
+
+.img_box img:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.strong {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.button {
+	padding: 20px;
+	border: 0;
+	font-size: 18px;
+	background-color: #7bb25e;
+	color: #fff;
+}
+
+.copyright {
+	background-color: #333;
+	padding: 30px 0;
+	color: #fff;
+}
