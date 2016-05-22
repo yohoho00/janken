@@ -74,6 +74,10 @@ body {
 	background-color: #eee;
 }
 
+.header_wrapper {
+	padding-bottom: 30px;
+}
+
 .inner:first-child {
 	padding-top: 0px;
 }
@@ -120,10 +124,25 @@ body {
 
 .button {
 	padding: 20px;
+	margin-bottom: 50px;
 	border: 0;
 	font-size: 18px;
 	background-color: #7bb25e;
 	color: #fff;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #afd49b;
+}
+
+.message {
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
 }
 
 .copyright {
